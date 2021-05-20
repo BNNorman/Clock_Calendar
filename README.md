@@ -40,6 +40,8 @@ Follow these instructions to add support for the RTC:-
 
 https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi/set-rtc-time
 
+Disable the pi screen blanking - otherwise the clock display disappears and doesn't come back without a keyboard/mouse attached.
+
 # python libraries
 
 Nothing very special here. Just use pip3 to install
